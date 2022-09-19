@@ -12,3 +12,4 @@ def level1():
         "consistent supply of water and electricity, which allows indefinite habitation by wanderers providing that "
         "appropriate precautions are taken. It is also far more expansive, possessing staircases, elevators, "
         "isolated rooms, and hallways.", style="bold yellow")
+

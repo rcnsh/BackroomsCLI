@@ -159,11 +159,11 @@ def level0():
         elif options == 2:
             console.print("You decided not to use the dynamite...", style="blink green")
             options = Menu.SimpleConsoleMenuBlock('Options:', [
-                                                               "Enter the room to your left",
-                                                               "Enter the room to your right",
-                                                               "Enter the room ahead of you",
-                                                               "Enter the room behind you",
-                                                               f"Noclip out of the room: {noclip} remaining"],
+                "Enter the room to your left",
+                "Enter the room to your right",
+                "Enter the room ahead of you",
+                "Enter the room behind you",
+                f"Noclip out of the room: {noclip} remaining"],
                                                   "Option: ", 76)
 
             from levels.Level1 import level1
@@ -209,6 +209,7 @@ def level0():
             levelminus1()
 
     if options == 5:
+        updatenoclip()
         from levels.Levelminus1 import levelminus1
         levelminus1()
 
