@@ -5,7 +5,7 @@ healthFile.write("100")
 healthFile.close()
 
 noclipFile = open("./profileData/noclip.txt", "w")
-noclipFile.write("10")
+noclipFile.write("3")
 noclipFile.close()
 
 nameFile = open("./profileData/name.txt", "w")
