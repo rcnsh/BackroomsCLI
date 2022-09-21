@@ -24,3 +24,4 @@ almondFile.write("0")
 almondFile.close()
 
 level0()
+exit(1)

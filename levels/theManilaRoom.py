@@ -40,20 +40,20 @@ def manilaroom():
             if options == 1:
                 from levels.Level0 import level0
                 level0()
-                exit(0)
+                exit(1)
             elif options == 2:
                 updatenoclip()
                 from levels.Level1 import level1
                 level1()
-                exit(0)
+                exit(1)
     if options == 2:
         from levels.Level0 import level0
         level0()
-        exit(0)
+        exit(1)
     if options == 3:
         from levels.Level1 import level1
         level1()
-        exit(0)
+        exit(1)
 
 
 
