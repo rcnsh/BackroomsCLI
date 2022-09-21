@@ -24,4 +24,4 @@ def level994():
                   "light[/bold black] (par from the window)(similar to Level 6). The rooms also vary floor to "
                   "floor.", style="bold yellow")
     console.print("WIP",style="bold black")
-    exit(1)
+    exit()

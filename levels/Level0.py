@@ -20,7 +20,7 @@ def level0():
     noclipfile = open("profileData/noclip.txt", "r")
 
     noclip = noclipfile.read()
-
+    noclipfile.close()
     options = Menu.SimpleConsoleMenuBlock('Options:', ["Enter the room to your left", "Enter the room to your right",
                                                        "Enter the room ahead of you", "Enter the room behind you",
                                                        f"Noclip out of the room: {noclip} remaining"], "Option: ", 76)
@@ -48,7 +48,7 @@ def level0():
                 updatenoclip()
                 from levels.Level1 import level1
                 level1()
-                exit(1)
+                exit()
 
         options = Menu.SimpleConsoleMenuBlock('Options:', ["Enter the room to the left", "Enter the room to the right",
                                                            "Enter the room ahead of you",
@@ -57,18 +57,18 @@ def level0():
         from levels.Level1 import level1
         if options == 1:
             level1()
-            exit(1)
+            exit()
         elif options == 2:
             level1()
-            exit(1)
+            exit()
         elif options == 3:
             level1()
-            exit(1)
+            exit()
         elif options == 4:
             updatenoclip()
             from levels.Levelminus1 import levelminus1
             levelminus1()
-            exit(1)
+            exit()
 
     if options == 2:
         console.print("You enter the room to your right...\n", style="blink green")
@@ -109,17 +109,17 @@ def level0():
         from levels.Level1 import level1
         if options == 1:
             level1()
-            exit(1)
+            exit()
         elif options == 2:
             level1()
-            exit(1)
+            exit()
         elif options == 3:
             level1()
-            exit(1)
+            exit()
         elif options == 4:
             from levels.Levelminus1 import levelminus1
             levelminus1()
-            exit(1)
+            exit()
 
     if options == 3:
         console.print("You enter the room ahead of you...\n", style="blink green")
@@ -152,24 +152,24 @@ def level0():
             if options == 1:
                 from levels.Level27 import level27
                 level27()
-                exit(1)
+                exit()
             elif options == 2:
                 level1()
-                exit(1)
+                exit()
             elif options == 3:
                 level1()
-                exit(1)
+                exit()
             elif options == 4:
                 level1()
-                exit(1)
+                exit()
             elif options == 5:
                 level1()
-                exit(1)
+                exit()
             elif options == 6:
                 updatenoclip()
                 from levels.Levelminus1 import levelminus1
                 levelminus1()
-                exit(1)
+                exit()
 
         elif options == 2:
             console.print("You decided not to use the dynamite...", style="blink green")
@@ -184,21 +184,21 @@ def level0():
             from levels.Level1 import level1
             if options == 1:
                 level1()
-                exit(1)
+                exit()
             elif options == 2:
                 level1()
-                exit(1)
+                exit()
             elif options == 3:
                 level1()
-                exit(1)
+                exit()
             elif options == 4:
                 level1()
-                exit(1)
+                exit()
             elif options == 5:
                 updatenoclip()
                 from levels.Levelminus1 import levelminus1
                 levelminus1()
-                exit(1)
+                exit()
 
     if options == 4:
         console.print("You enter the room to your left...\n", style="blink green")
@@ -217,26 +217,26 @@ def level0():
         from levels.Level1 import level1
         if options == 1:
             level1()
-            exit(1)
+            exit()
         elif options == 2:
             level1()
-            exit(1)
+            exit()
         elif options == 3:
             level1()
-            exit(1)
+            exit()
         elif options == 4:
             level1()
-            exit(1)
+            exit()
         elif options == 5:
             updatenoclip()
             from levels.Levelminus1 import levelminus1
             levelminus1()
-            exit(1)
+            exit()
 
     if options == 5:
         updatenoclip()
         from levels.Levelminus1 import levelminus1
         levelminus1()
-        exit(1)
+        exit()
 
-    exit(1)
+    exit()

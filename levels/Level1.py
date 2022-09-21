@@ -1,8 +1,8 @@
 def level1():
     from rich.console import Console
     import os
-    clear = lambda: os.system('cls')
-    clear()
+    os.system('cls')
+
     console = Console()
 
     console.print(

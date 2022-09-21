@@ -22,5 +22,5 @@ def level27():
                   "them. It is unknown what is causing these sounds, as nothing notable has been found in them yet.",
                   style="bold yellow")
     console.print("WIP", style="bold black")
-    exit(1)
+    exit()
 

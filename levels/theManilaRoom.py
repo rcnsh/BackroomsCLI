@@ -29,7 +29,7 @@ def manilaroom():
         if randomgen > 95:
             from levels.Level994 import level994
             level994()
-            exit(1)
+            exit()
         else:
             console.print("You wake up feeling refreshed...", style="bold blue")
             updatehealth(20)
@@ -40,20 +40,20 @@ def manilaroom():
             if options == 1:
                 from levels.Level0 import level0
                 level0()
-                exit(1)
+                exit()
             elif options == 2:
                 updatenoclip()
                 from levels.Level1 import level1
                 level1()
-                exit(1)
+                exit()
     if options == 2:
         from levels.Level0 import level0
         level0()
-        exit(1)
+        exit()
     if options == 3:
         from levels.Level1 import level1
         level1()
-        exit(1)
+        exit()
 
 
 
