@@ -7,7 +7,7 @@ BackroomsCLI is a multi-choice CLI game based off [The Backrooms fandom page](ht
 
 
 
-# Contributing
+# <div align="center">Contributing</div>
 
 - Check the [TODO.md](TODO.md) file.
 
