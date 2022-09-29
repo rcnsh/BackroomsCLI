@@ -9,5 +9,10 @@ BackroomsCLI is a multi-choice CLI game based off [The Backrooms fandom page](ht
 
 # Contributing
 
-- Check the [TODO.md](TODO.md) file
-  
+- Check the [TODO.md](TODO.md) file.
+
+- Clone the repo and install the requirements using `pip install -r requirements.txt`.
+
+- To create a new room, make a new .py file in the levels/ dir with the format level[x].py or use camel case if that naming convention does not work.
+
+- When creating a new level make sure to clear the console contents by importing the clear function from snippits/snippits.py and calling it using `clear()`.
