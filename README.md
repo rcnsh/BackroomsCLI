@@ -2,7 +2,7 @@
 
 # <div align="center">BackroomsCLI</div>
 
-BackroomsCLI is a multi-choice CLI game based off [The Backrooms fandom page](https://backrooms.fandom.com/wiki/Backrooms_Wiki).
+### BackroomsCLI is a multi-choice CLI game based off [The Backrooms fandom page](https://backrooms.fandom.com/wiki/Backrooms_Wiki).
 
 
 
