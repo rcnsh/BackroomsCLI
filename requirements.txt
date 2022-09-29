@@ -1,0 +1,2 @@
+simple_console_menu
+rich
