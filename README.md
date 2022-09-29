@@ -15,4 +15,4 @@ BackroomsCLI is a multi-choice CLI game based off [The Backrooms fandom page](ht
 
 - To create a new room, make a new .py file in the levels/ dir with the format level[x].py or use camel case if that naming convention does not work.
 
-- When creating a new level make sure to clear the console contents by importing the clear function from snippits/snippits.py and calling it using `clear()`.
+- When creating a new level make sure to clear the console contents by importing the clear function from snippets/snippets.py and calling it using `clear()`.
