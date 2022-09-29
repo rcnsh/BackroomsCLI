@@ -2,7 +2,7 @@
 
 ### <div align="center">BackroomsCLI
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=BackroomsCLI+game+written+in+Python)](https://git.io/typing-svg)
-  BackroomsCLI is a multi-choice CLI game based off [The Backrooms fandom page](https://backrooms.fandom.com/wiki/Backrooms_Wiki)
+BackroomsCLI is a multi-choice CLI game based off [The Backrooms fandom page](https://backrooms.fandom.com/wiki/Backrooms_Wiki)
 
   
   
